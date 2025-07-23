@@ -1,0 +1,28 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Logs and temp
+*.log
+*.tmp
+
+# Prometheus binaries and data
+prometheus/prometheus
+prometheus/promtool
+prometheus/prometheus_temp/
+prometheus/data/
+prometheus/consoles/
+prometheus/console_libraries/
+
+# OS and editor files
+.DS_Store
+.vscode/
+
+# Archives and media files
+*.zip
+*.tar.gz
+*.mp3
+*.wav

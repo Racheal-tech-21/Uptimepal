@@ -1,0 +1,450 @@
+<!DOCTYPE html>     
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🚀 UptimePal Pro Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Blinking favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🌐</text></svg>">
+
+  <style>
+    /* Background gradient animation */
+    @keyframes gradientShift {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* ======= PAGE & BODY ======= */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden; /* NO page scroll */
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      color: #e0e6f0;
+      background: linear-gradient(270deg, #0b0c1a, #1a1a2e, #000000, #1a1a2e);
+      background-size: 800% 800%;
+      animation: gradientShift 30s ease infinite;
+      transition: 0.3s;
+      position: relative;
+    }
+    body.light-mode {
+      background: #f2f6fccc;
+      color: #2c3e50;
+    }
+
+    /* ======= MAIN CONTAINER ======= */
+    .container-fluid {
+      max-width: 1400px;
+      margin: auto;
+      padding: 20px 30px;
+      position: relative;
+      z-index: 10;
+
+      max-height: 100vh;    /* Fix max height to viewport */
+      overflow-y: auto;     /* Scroll inside container if content is tall */
+      overflow-x: hidden;
+      box-sizing: border-box;
+    }
+
+    /* ======= HEADER ======= */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+      user-select: none;
+    }
+    .logo {
+      font-size: 2.6rem;
+      text-shadow: 0 0 10px #00c6ff;
+    }
+    header h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #007bff, #00c6ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      white-space: nowrap;
+      text-shadow: 0 0 12px #007bff;
+    }
+    #toggle-btn {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 35px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(101, 33, 255, 0.5);
+      user-select: none;
+    }
+    #toggle-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 30px rgba(101, 33, 255, 0.8);
+    }
+
+    /* ======= FILTER CONTROLS ======= */
+    #controls {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    #filter-select,
+    #search-input {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      flex: 1;
+      box-shadow: 0 0 12px rgba(0, 123, 255, 0.5);
+      background: rgba(0, 0, 0, 0.25);
+      color: #e0e6f0;
+      transition: background 0.3s;
+    }
+    #filter-select:focus,
+    #search-input:focus {
+      background: rgba(0, 0, 0, 0.6);
+      outline: none;
+      color: #fff;
+    }
+    #search-input {
+      min-width: 200px;
+    }
+
+    /* ======= STATS OVERVIEW ======= */
+    #stats-overview {
+      display: block;      /* no flex stretching */
+      width: 100%;
+      max-height: 300px;   /* fixed max height */
+      overflow-y: auto;    /* scroll inside if needed */
+      margin-bottom: 30px;
+    }
+    .stat-box {
+      display: inline-block;
+      width: 180px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      margin-right: 15px;
+      margin-bottom: 15px;
+      position: relative;
+      user-select: none;
+      flex: none; /* prevent flex-grow */
+    }
+    .stat-title {
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-shadow: 0 0 5px #00bfff;
+    }
+    .stat-value {
+      font-size: 1.8rem;
+      font-weight: 900;
+      text-shadow: 0 0 8px #00c6ff;
+    }
+
+    /* ======= STATUS SECTION ======= */
+    #status-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      max-height: 300px;   /* limit max height */
+      overflow-y: auto;    /* scroll inside */
+      margin-bottom: 40px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      color: inherit;
+      padding: 20px;
+      transition: transform 0.25s, box-shadow 0.25s;
+      animation: fadeIn 0.6s ease-in-out;
+      position: relative;
+      cursor: default;
+
+      max-height: 200px;   /* restrict vertical stretching */
+      overflow-y: auto;    /* scroll inside card if overflow */
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 15px 35px rgba(0, 123, 255, 0.75), 0 0 12px #00c6ff;
+    }
+    .card-header {
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: #0099ff;
+      margin-bottom: 12px;
+      text-shadow: 0 0 6px #00bfff;
+      user-select: none;
+    }
+    .status-badge {
+      display: inline-block;
+      padding: 5px 14px;
+      border-radius: 25px;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #fff;
+      min-width: 80px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+      user-select: none;
+    }
+    .up-badge {
+      background: linear-gradient(90deg, #27ae60, #2ecc71);
+      text-shadow: 0 0 5px #2ecc71;
+    }
+    .down-badge {
+      background: linear-gradient(90deg, #e74c3c, #c0392b);
+      animation: pulse-red 1.8s infinite ease-in-out;
+      text-shadow: 0 0 5px #e74c3c;
+    }
+    @keyframes pulse-red {
+      0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+      }
+    }
+    .sparkline {
+      width: 100%;
+      height: 60px;
+      filter: drop-shadow(0 0 3px #00c6ff);
+    }
+
+    /* ======= LOADER & ERROR ======= */
+    #loader {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+    }
+    #error-msg {
+      color: #ff4c4c;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.1rem;
+      user-select: none;
+    }
+
+    /* ======= FOOTER ======= */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: inherit;
+      opacity: 0.6;
+      user-select: none;
+    }
+  </style>
+</head>
+<body class="light-mode">
+  <div class="container-fluid">
+    <header>
+      <div class="logo-title"><div class="logo">🚀</div><h1>UptimePal Pro</h1></div>
+      <div>
+        <button id="toggle-btn">🌙 Dark Mode</button>
+        <span id="current-time" style="margin-left: 15px; opacity: 0.8;"></span>
+      </div>
+    </header>
+
+    <div id="controls">
+      <select id="filter-select">
+        <option value="all">All Services</option>
+        <option value="UP">Only UP</option>
+        <option value="DOWN">Only DOWN</option>
+      </select>
+      <input id="search-input" placeholder="🔍 Search by URL…" />
+    </div>
+
+    <section id="stats-overview">
+      <div class="stat-box"><div class="stat-title">Total Sites</div><div id="total-sites" class="stat-value">0</div></div>
+      <div class="stat-box"><div class="stat-title">🟢 UP</div><div id="up-count" class="stat-value">0</div></div>
+      <div class="stat-box"><div class="stat-title">🔴 DOWN</div><div id="down-count" class="stat-value">0</div></div>
+      <div class="stat-box"><div class="stat-title">📈 Uptime %</div><div id="uptime-percent" class="stat-value">0%</div></div>
+    </section>
+
+    <section id="status-section">
+      <div id="loader">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </section>
+
+    <div id="error-msg" hidden></div>
+    <footer>© 2025 UptimePal · Powered by Flask & Prometheus</footer>
+  </div>
+
+  <script>
+    // === Dashboard logic ===
+    const body = document.body;
+    const toggleBtn = document.getElementById('toggle-btn');
+    const filter = document.getElementById('filter-select');
+    const search = document.getElementById('search-input');
+    const loader = document.getElementById('loader');
+    const errorMsg = document.getElementById('error-msg');
+    const statusSection = document.getElementById('status-section');
+    const totalSites = document.getElementById('total-sites');
+    const upCount = document.getElementById('up-count');
+    const downCount = document.getElementById('down-count');
+    const uptimePercent = document.getElementById('uptime-percent');
+
+    let rawData = [];
+    let sparklineCharts = {};
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('light-mode');
+      toggleBtn.textContent = body.classList.contains('light-mode') ? '🌙 Dark Mode' : '☀️ Light Mode';
+    });
+
+    filter.addEventListener('input', renderDashboard);
+    search.addEventListener('input', renderDashboard);
+
+    async function fetchStatus() {
+      try {
+        errorMsg.hidden = true;
+        loader.style.display = 'flex';
+        const res = await fetch('/data');
+        if (!res.ok) throw new Error('Network error');
+        rawData = await res.json();
+        loader.style.display = 'none';
+        renderDashboard();
+      } catch (err) {
+        loader.style.display = 'none';
+        statusSection.innerHTML = '';
+        errorMsg.textContent = '⚠️ Failed to load data.';
+        errorMsg.hidden = false;
+        console.error(err);
+      }
+    }
+
+    function animateValue(element, start, end, duration) {
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        element.textContent = Math.floor(progress * (end - start) + start);
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        } else if (element === uptimePercent) {
+          element.textContent = end.toFixed(1) + '%';
+        }
+      };
+      window.requestAnimationFrame(step);
+    }
+
+    function renderDashboard() {
+      const query = search.value.toLowerCase();
+      const filtered = rawData.filter(e =>
+        (filter.value === 'all' || e.status === filter.value) &&
+        e.url.toLowerCase().includes(query)
+      );
+
+      let up = 0, down = 0;
+      statusSection.innerHTML = '';
+
+      filtered.forEach(entry => {
+        if (entry.status === 'UP') up++;
+        else down++;
+
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="card-header">🌐 ${entry.url}</div>
+          <p><span class="status-badge ${entry.status === 'UP' ? 'up-badge' : 'down-badge'}">
+            ${entry.status === 'UP' ? '🟢 UP' : '🔴 DOWN'}</span></p>
+          <p>⚡ Response Time: ${entry.response_time !== 'N/A' ? entry.response_time + ' ms' : 'N/A'}</p>
+          <p>📅 Last Checked: ${entry.last_checked}</p>
+          <canvas class="sparkline" id="chart-${btoa(entry.url).replace(/=/g, '')}"></canvas>
+        `;
+        statusSection.appendChild(card);
+
+        // Sparkline chart with cosmic glow
+        const ctx = card.querySelector('canvas').getContext('2d');
+        if (sparklineCharts[entry.url]) {
+          sparklineCharts[entry.url].destroy();
+        }
+        sparklineCharts[entry.url] = new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: entry.response_times ? entry.response_times.map((_, i) => i + 1) : [],
+            datasets: [{
+              data: entry.response_times || [],
+              borderColor: entry.status === 'UP' ? '#27ae60' : '#e74c3c',
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false,
+              tension: 0.3,
+              segment: {
+                borderColor: ctx => ctx.p0.parsed.y > ctx.p1.parsed.y ? '#00ff00' : '#ff0000'
+              }
+            }]
+          },
+          options: {
+            animation: false,
+            scales: { x: { display: false }, y: { display: false } },
+            plugins: { legend: { display: false } },
+            elements: { line: { tension: 0.3 } },
+            responsive: true,
+            maintainAspectRatio: false,
+          }
+        });
+      });
+
+      const total = filtered.length;
+      animateValue(totalSites, 0, total, 500);
+      animateValue(upCount, 0, up, 500);
+      animateValue(downCount, 0, down, 500);
+
+      // Calculate uptime percentage: up / total * 100
+      const uptime = total ? (up / total) * 100 : 0;
+      animateValue(uptimePercent, 0, uptime, 700);
+    }
+
+    // Display current time every second
+    const timeSpan = document.getElementById('current-time');
+    setInterval(() => {
+      const now = new Date();
+      timeSpan.textContent = now.toLocaleTimeString();
+    }, 1000);
+
+    // Auto refresh every 10 seconds
+    fetchStatus();
+    setInterval(fetchStatus, 10000);
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

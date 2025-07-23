@@ -1,0 +1,166 @@
+[2025-07-20 08:58:52] https://www.google.com - UP - 3.033s
+[2025-07-20 08:59:03] https://www.facebook.com - UP - 10.721s
+[2025-07-20 08:59:03] https://thiswebsitedoesnotexist.zx - DOWN - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7c2c10a09550>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)")) - 0s
+[2025-07-20 16:40:17] https://www.google.com - UP - 2.519s
+[2025-07-20 16:40:19] https://www.facebook.com - UP - 1.863s
+[2025-07-20 16:40:23] https://thiswebsitedoesnotexist.zx - DOWN - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x775e1b7eb290>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)")) - 0s
+[2025-07-20 18:05:10] https://www.google.com - UP - 1.891s
+[2025-07-20 18:05:13] https://www.facebook.com - UP - 0.702s
+[2025-07-20 18:05:31] https://thiswebsitedoesnotexist.zx - DOWN - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x78eb94479eb0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)")) - 0s
+[2025-07-20 18:46:14.883552] https://www.google.com - UP - 4.490375s - 
+[2025-07-20 18:46:26.823092] https://www.facebook.com - UP - 6.367742s - 
+[2025-07-20 18:46:52.826049] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7cd5dab62a50>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 18:47:56.792896] https://www.google.com - UP - 3.549321s - 
+[2025-07-20 18:48:10.405094] https://www.facebook.com - UP - 3.95614s - 
+[2025-07-20 18:48:43.106800] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7cd5dab88890>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 18:49:48.946229] https://www.google.com - UP - 5.777608s - 
+[2025-07-20 18:49:58.355264] https://www.facebook.com - UP - 4.882274s - 
+[2025-07-20 18:50:17.756925] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7cd5dab88950>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 18:51:24.699341] https://www.google.com - UP - 4.331248s - 
+[2025-07-20 18:51:37.434337] https://www.facebook.com - UP - 5.798638s - 
+[2025-07-20 18:51:53.822645] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7cd5dab88b30>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 18:57:19.579890] https://www.google.com - UP - 7.689467s - 
+[2025-07-20 18:57:25.872597] https://www.facebook.com - UP - 2.071665s - 
+[2025-07-20 18:57:47.997967] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7eb08041ecf0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:13:48.420904] https://www.google.com - UP - 4.107481s - 
+[2025-07-20 19:14:02.296768] https://www.facebook.com - UP - 3.197985s - 
+[2025-07-20 19:14:21.812767] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f57e0cc6e70>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:22:18.806756] https://www.google.com - UP - 0.982044s - 
+[2025-07-20 19:22:20.341276] https://www.facebook.com - UP - 0.82302s - 
+[2025-07-20 19:22:26.980868] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f5aae0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:23:37.487272] https://www.google.com - UP - 6.166012s - 
+[2025-07-20 19:23:43.170707] https://www.facebook.com - UP - 0.945757s - 
+[2025-07-20 19:23:49.504361] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f5be30>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:24:51.446997] https://www.google.com - UP - 1.876202s - 
+[2025-07-20 19:24:56.878122] https://www.facebook.com - UP - 2.065325s - 
+[2025-07-20 19:25:22.750521] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f90c20>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:26:28.555106] https://www.google.com - UP - 5.755909s - 
+[2025-07-20 19:26:46.159898] https://www.facebook.com - UP - 6.086398s - 
+[2025-07-20 19:27:05.583103] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f91ac0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:28:10.372908] https://www.google.com - UP - 4.78706s - 
+[2025-07-20 19:28:35.735912] https://www.facebook.com - UP - 15.482249s - 
+[2025-07-20 19:28:49.946129] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f5ad20>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:29:57.428207] https://www.google.com - UP - 7.071071s - 
+[2025-07-20 19:30:14.708861] https://www.facebook.com - UP - 10.188651s - 
+[2025-07-20 19:30:42.008348] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f91220>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:31:46.441481] https://www.google.com - UP - 3.962731s - 
+[2025-07-20 19:32:10.894896] https://www.facebook.com - UP - 10.597862s - 
+[2025-07-20 19:32:38.121571] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f92480>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:33:44.628490] https://www.google.com - UP - 5.580147s - 
+[2025-07-20 19:33:50.951497] https://www.facebook.com - DOWN - 0s - ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2025-07-20 19:33:50.989395] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f92270>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -3] Temporary failure in name resolution)"))
+[2025-07-20 19:34:52.940266] https://www.google.com - UP - 1.918626s - 
+[2025-07-20 19:35:06.660199] https://www.facebook.com - UP - 6.588314s - 
+[2025-07-20 19:35:34.123360] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f938c0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:36:43.935989] https://www.google.com - UP - 8.943301s - 
+[2025-07-20 19:36:55.402674] https://www.facebook.com - UP - 3.694932s - 
+[2025-07-20 19:37:12.112947] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f901a0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:38:14.930481] https://www.google.com - UP - 2.331806s - 
+[2025-07-20 19:38:26.884983] https://www.facebook.com - UP - 5.008727s - 
+[2025-07-20 19:38:39.988940] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f90f80>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:39:46.499879] https://www.google.com - UP - 4.358787s - 
+[2025-07-20 19:40:25.410207] https://www.facebook.com - DOWN - 0s - HTTPSConnectionPool(host='web.facebook.com', port=443): Max retries exceeded with url: /?_rdc=1&_rdr (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x731675f93980>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2025-07-20 19:40:39.684084] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731674db42c0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:41:45.741700] https://www.google.com - UP - 5.268147s - 
+[2025-07-20 19:41:53.644699] https://www.facebook.com - UP - 3.329817s - 
+[2025-07-20 19:42:34.043888] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f91c40>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:43:51.774869] https://www.google.com - UP - 12.823227s - 
+[2025-07-20 19:44:11.367056] https://www.facebook.com - UP - 6.50667s - 
+[2025-07-20 19:44:35.832067] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x731675f932c0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-20 19:46:21.256400] https://www.google.com - DOWN - 0s - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-07-20 19:46:57.218881] https://www.facebook.com - UP - 14.060238s - 
+[2025-07-20 19:47:11.265646] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7316760115b0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:31:36.985405] https://www.google.com - UP - 2.373296s - 
+[2025-07-21 07:31:42.103670] https://www.facebook.com - UP - 2.108708s - 
+[2025-07-21 07:31:52.755762] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbc2d20>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:32:55.031227] https://www.google.com - UP - 2.24452s - 
+[2025-07-21 07:32:58.196380] https://www.facebook.com - UP - 1.416113s - 
+[2025-07-21 07:33:05.562225] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf8110>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:34:07.409429] https://www.google.com - UP - 1.640073s - 
+[2025-07-21 07:34:11.510062] https://www.facebook.com - UP - 2.247625s - 
+[2025-07-21 07:34:20.106730] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf9280>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:35:21.252978] https://www.google.com - UP - 1.137375s - 
+[2025-07-21 07:35:23.189312] https://www.facebook.com - UP - 0.932799s - 
+[2025-07-21 07:35:30.021161] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf9a00>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:36:31.659891] https://www.google.com - UP - 1.612665s - 
+[2025-07-21 07:36:35.483765] https://www.facebook.com - UP - 1.622261s - 
+[2025-07-21 07:36:45.622081] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbc3dd0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:37:47.587970] https://www.google.com - UP - 1.952871s - 
+[2025-07-21 07:37:51.415817] https://www.facebook.com - UP - 2.046062s - 
+[2025-07-21 07:37:58.433542] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf81d0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:38:59.977782] https://www.google.com - UP - 1.53531s - 
+[2025-07-21 07:39:03.002056] https://www.facebook.com - UP - 1.435107s - 
+[2025-07-21 07:39:10.722526] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbfa000>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:40:11.651365] https://www.google.com - UP - 0.925257s - 
+[2025-07-21 07:40:13.002327] https://www.facebook.com - UP - 0.683396s - 
+[2025-07-21 07:40:18.201354] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf99d0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:41:20.374002] https://www.google.com - UP - 2.158758s - 
+[2025-07-21 07:41:24.111497] https://www.facebook.com - UP - 1.639673s - 
+[2025-07-21 07:41:33.261160] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbfb530>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:42:36.182707] https://www.google.com - UP - 2.913467s - 
+[2025-07-21 07:42:41.262648] https://www.facebook.com - UP - 2.147867s - 
+[2025-07-21 07:42:51.494566] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbc3890>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:43:55.926440] https://www.google.com - UP - 4.100951s - 
+[2025-07-21 07:44:00.535287] https://www.facebook.com - UP - 2.259269s - 
+[2025-07-21 07:44:09.634084] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbfa6c0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:45:11.584366] https://www.google.com - UP - 1.945398s - 
+[2025-07-21 07:45:15.284512] https://www.facebook.com - UP - 1.840757s - 
+[2025-07-21 07:45:22.233760] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf98e0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:46:25.721043] https://www.google.com - UP - 3.180318s - 
+[2025-07-21 07:46:28.763595] https://www.facebook.com - UP - 1.327747s - 
+[2025-07-21 07:46:36.064634] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbfbb90>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:47:37.921121] https://www.google.com - UP - 1.845972s - 
+[2025-07-21 07:47:40.993681] https://www.facebook.com - UP - 1.541013s - 
+[2025-07-21 07:47:49.960156] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbf8fb0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:48:51.034943] https://www.google.com - UP - 1.061722s - 
+[2025-07-21 07:48:53.798233] https://www.facebook.com - UP - 1.332199s - 
+[2025-07-21 07:49:01.180337] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbc3260>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:50:02.472144] https://www.google.com - UP - 1.283996s - 
+[2025-07-21 07:50:04.027168] https://www.facebook.com - UP - 0.822219s - 
+[2025-07-21 07:50:12.127917] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbfa570>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:51:12.958929] https://www.google.com - UP - 0.811594s - 
+[2025-07-21 07:51:14.431669] https://www.facebook.com - UP - 0.743832s - 
+[2025-07-21 07:51:20.429742] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x745facbfa2d0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:55:09.611281] https://www.google.com - UP - 1.894217s - 
+[2025-07-21 07:55:13.287057] https://www.facebook.com - UP - 1.546005s - 
+[2025-07-21 07:55:22.914003] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769aec7140>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:56:24.562296] https://www.google.com - UP - 1.643535s - 
+[2025-07-21 07:56:28.782334] https://www.facebook.com - UP - 2.047501s - 
+[2025-07-21 07:56:39.097301] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af04d70>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:57:40.859277] https://www.google.com - UP - 1.746092s - 
+[2025-07-21 07:57:43.802438] https://www.facebook.com - UP - 1.641062s - 
+[2025-07-21 07:57:53.439432] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af054f0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 07:58:55.302414] https://www.google.com - UP - 1.853643s - 
+[2025-07-21 07:58:59.470513] https://www.facebook.com - UP - 1.745432s - 
+[2025-07-21 07:59:14.439968] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af05d90>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 08:00:15.585448] https://www.google.com - UP - 1.136067s - 
+[2025-07-21 08:00:17.907481] https://www.facebook.com - UP - 1.061327s - 
+[2025-07-21 08:00:23.877407] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769aec6510>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 08:01:25.669098] https://www.google.com - UP - 1.760337s - 
+[2025-07-21 08:01:30.039341] https://www.facebook.com - UP - 2.360129s - 
+[2025-07-21 08:01:40.977669] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af066c0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 08:02:43.168286] https://www.google.com - UP - 2.143093s - 
+[2025-07-21 08:02:48.341110] https://www.facebook.com - UP - 2.3901s - 
+[2025-07-21 08:03:01.902825] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af06510>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 08:04:05.778224] https://www.google.com - UP - 3.867671s - 
+[2025-07-21 08:04:11.017849] https://www.facebook.com - UP - 2.46032s - 
+[2025-07-21 08:04:21.233537] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af06630>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 08:05:23.801485] https://www.google.com - UP - 2.053124s - 
+[2025-07-21 08:05:29.327578] https://www.facebook.com - UP - 2.458481s - 
+[2025-07-21 08:05:40.798826] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af07500>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 08:06:42.447318] https://www.google.com - UP - 1.643185s - 
+[2025-07-21 08:06:46.552535] https://www.facebook.com - UP - 1.933811s - 
+[2025-07-21 08:06:55.756711] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769aec67e0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 09:36:03.153809] https://www.google.com - UP - 2.852363s - 
+[2025-07-21 09:36:07.594782] https://www.facebook.com - UP - 1.855868s - 
+[2025-07-21 09:36:12.793775] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af06fc0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 09:37:14.944403] https://www.google.com - UP - 2.120373s - 
+[2025-07-21 09:37:18.880546] https://www.facebook.com - UP - 1.888418s - 
+[2025-07-21 09:37:25.889426] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af05ee0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 09:38:27.501489] https://www.google.com - UP - 1.607435s - 
+[2025-07-21 09:38:31.478555] https://www.facebook.com - UP - 1.828683s - 
+[2025-07-21 09:38:41.141849] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af04da0>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 09:39:42.093576] https://www.google.com - UP - 0.931185s - 
+[2025-07-21 09:39:44.138428] https://www.facebook.com - UP - 0.917819s - 
+[2025-07-21 09:39:49.193051] https://thiswebsitedoesnotexist.zx - DOWN - 0s - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b769af07860>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)"))
+[2025-07-21 09:40:51.030624] https://www.google.com - UP - 1.814059s - 

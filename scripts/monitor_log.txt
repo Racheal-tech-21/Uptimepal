@@ -1,0 +1,3 @@
+[2025-07-20 08:33:35] https://www.google.com - UP - 6.642s
+[2025-07-20 08:33:42] https://www.facebook.com - UP - 6.969s
+[2025-07-20 08:33:43] https://thiswebsitedoesnotexist.zx - DOWN - HTTPSConnectionPool(host='thiswebsitedoesnotexist.zx', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x73ccce82a630>: Failed to resolve 'thiswebsitedoesnotexist.zx' ([Errno -2] Name or service not known)")) - 0s
