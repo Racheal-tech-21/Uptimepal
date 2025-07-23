@@ -16,7 +16,7 @@ prometheus/prometheus_temp/
 prometheus/data/
 prometheus/consoles/
 prometheus/console_libraries/
-
+start_prometheus.sh
 # OS and editor files
 .DS_Store
 .vscode/
