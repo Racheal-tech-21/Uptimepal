@@ -1,14 +1,7 @@
 services:
   - type: web
     name: uptimepal
-    env: python
-    buildCommand: |
-      pip install -r requirements.txt
-      chmod +x start_all.sh
-    startCommand: ./start_all.sh
+    env: docker
     plan: free
-    envVars:
-      - key: FLASK_ENV
-        value: production
-      - key: PORT
-        value: 10000
+    region: oregon
+    dockerfilePath: ./Dockerfile

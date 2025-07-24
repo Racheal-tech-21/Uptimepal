@@ -10,8 +10,8 @@ from prometheus_client import start_http_server, Gauge
 # List of websites to monitor
 WEBSITES = [
     "https://google.com",
-    "https://whatsapp.com",
-    "https://github.com"
+    "https://github.com",
+    "https://thiswebsitedoesnotexist.zx"
 ]
 
 # Email alert config
